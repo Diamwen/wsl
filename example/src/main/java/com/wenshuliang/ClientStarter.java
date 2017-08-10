@@ -39,7 +39,7 @@ public class ClientStarter {
             }
         }).start();
 
-        new Thread(() -> {sssssssssss
+        new Thread(() -> {
             for(int i=0; i<100000; i++) {
                 client.send(channel, "Thread2222222___" + i);
                 try {
